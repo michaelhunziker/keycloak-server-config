@@ -1,0 +1,12 @@
+
+swarm:
+  keycloak-server:
+    providers: /var/keycloak/providers
+    themes:
+      my-theme:
+        dir: /var/keycloak/themes
+      theme-module:
+        modules: example.keycloak.theme
+    spis:
+      event-listener:
+        default-provider: example.keycloak.provider
