@@ -11,7 +11,7 @@
     <name>Keycloak Server Example</name>
 
     <properties>
-        <version.wildfly.swarm>2017.2.0</version.wildfly.swarm>
+        <version.wildfly.swarm>2018.2.0</version.wildfly.swarm>
     </properties>
 
     <modules>
