@@ -3,9 +3,9 @@ swarm:
   keycloak-server:
     providers: /var/keycloak/providers
     themes:
-      my-theme:
-        dir: /var/keycloak/themes
-      theme-module:
+      defaults:
+        cachethemes: false
+        cachetemplates: false
         modules: example.keycloak.theme
     spis:
       event-listener:
