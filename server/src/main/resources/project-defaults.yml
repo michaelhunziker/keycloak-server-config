@@ -1,7 +1,15 @@
 
 swarm:
 
-
   keycloak-server:
+
+    themes:
+      defaults:
+        cachethemes: false
+        cachetemplates: false
+        # Theme modules are NOT working
+        modules: example.keycloak.theme
+
     providers:
+      # Provider modules work as expected
       provider: module:org.keycloak.examples.event-sysout
