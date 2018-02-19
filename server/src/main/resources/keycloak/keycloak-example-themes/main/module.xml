@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<module xmlns="urn:jboss:module:1.3" name="org.keycloak.keycloak-example-themes">
+    <resources>
+        <resource-root path="keycloak-example-themes.jar"/>
+    </resources>
+</module>
