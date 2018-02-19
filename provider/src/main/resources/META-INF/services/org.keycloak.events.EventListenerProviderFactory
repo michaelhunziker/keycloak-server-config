@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-example.keycloak.server.provider.events.SysoutEventListenerProviderFactory
+org.keycloak.examples.providers.events.SysoutEventListenerProviderFactory

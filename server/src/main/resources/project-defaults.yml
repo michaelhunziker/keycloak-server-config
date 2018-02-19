@@ -4,13 +4,4 @@ swarm:
 
   keycloak-server:
     providers:
-      provider: classpath:/Users/michaelhunziker/Downloads/keycloak-3.4.0.Final/providers/*
-
-
-#    themes:
-#      defaults:
-#        cachethemes: false
-#        cachetemplates: false
-#        modules:
-#          module: org.keycloak.keycloak-example-themes
-#
+      provider: module:org.keycloak.examples.event-sysout

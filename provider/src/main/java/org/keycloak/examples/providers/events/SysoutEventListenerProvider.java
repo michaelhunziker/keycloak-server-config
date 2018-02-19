@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package example.keycloak.server.provider.events;
+package org.keycloak.examples.providers.events;
 
 import org.keycloak.events.Event;
 import org.keycloak.events.EventListenerProvider;
@@ -42,21 +42,21 @@ public class SysoutEventListenerProvider implements EventListenerProvider {
     @Override
     public void onEvent(Event event) {
         // Ignore excluded events
-        if (excludedEvents != null && excludedEvents.contains(event.getType())) {
-            return;
-        } else {
-            System.out.println("EVENT: " + toString(event));
-        }
+//        if (excludedEvents != null && excludedEvents.contains(event.getType())) {
+//            return;
+//        } else {
+            System.out.println("UIUIUI1  EVENT: " + toString(event));
+//        }
     }
 
     @Override
     public void onEvent(AdminEvent event, boolean includeRepresentation) {
         // Ignore excluded operations
-        if (excludedAdminOperations != null && excludedAdminOperations.contains(event.getOperationType())) {
-            return;
-        } else {
-            System.out.println("EVENT: " + toString(event));
-        }
+//        if (excludedAdminOperations != null && excludedAdminOperations.contains(event.getOperationType())) {
+//            return;
+//        } else {
+            System.out.println("UIUIUI2  EVENT: " + toString(event));
+//        }
     }
 
     private String toString(Event event) {

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package example.keycloak.server.provider.events;
+package org.keycloak.examples.providers.events;
 
 import org.keycloak.Config;
 import org.keycloak.events.EventListenerProvider;
